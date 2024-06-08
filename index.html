@@ -97,7 +97,7 @@
         }).addTo(map);
 
         // data dari geoserver
-        var layer1 = L.tileLayer.wms('http://localhost:8082/geoserver/wms', {
+        var layer1 = L.tileLayer.wms('geoserver/wms', {
             layers: 'SIP_batas_desa',
             format: 'image/png',
             transparent: true,
